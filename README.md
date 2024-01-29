@@ -1,2 +1,3 @@
-# my-first-site
-Using only HTML and CSS to build my very first website from scratch
+# Backround
+
+Thanks to TORs Flexbox project I now have all the nessecary tools at my disposal to create my very first website using only HTML and CSS from scratch.
