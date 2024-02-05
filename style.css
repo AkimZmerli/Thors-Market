@@ -1,0 +1,190 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    background-color: #1f2937;
+    padding: 16px 100px 48px;
+    color: #e5e7eb;
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 24px;
+    font-weight: bold;
+    color: #f9faf8;
+    margin-top: auto;
+    
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    gap: 16px;
+    font-size: 18px;
+  
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #f9faf8;
+}
+
+nav
+
+a {
+    text-decoration: none;
+    color: antiquewhite;
+
+}
+
+
+.header.container {
+    display: flex;
+    flex-direction: row;
+    padding: 32px;
+    margin-bottom: 48px;
+    margin-top: 48px;
+}
+
+.awesome {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+}
+
+.more {
+    display: block;
+    width: 300px;
+    margin: 32px;
+
+}
+/* adjust website item center
+    add gap */
+
+.website {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: extra-bold;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.button1 {
+    background-color: #3882F6;
+    border: 3px;
+    
+    padding: 8px 32px;
+    margin-top: 12px;
+    color: white;
+    border-radius: 8px;
+}
+
+.placeholder {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #8DA399;
+  margin: 64px;
+  padding: 48px;
+  border: 1px;
+  width: 400px;
+  height: 150px;
+
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: medium;
+}
+
+.information {
+    text-align: center;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    color:#1F2937;
+    font-size: x-large;
+    margin-top: 56px;
+}
+
+
+.main {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+}
+
+.boxes {
+    display: flex;
+    border: #3882F6;
+    border: 3px;
+}
+
+.box {
+    display: flex;
+    border: #3882F6;
+    border: 3px;
+}
+
+.thor {
+    display: flex;
+    justify-content: space-between;
+    background-color: #e5e7eb;
+    font-size: 36px;
+    font-family: italic;
+    color: #1F2937;
+    padding: 3em;
+}
+
+/* adjust text top left and quote bottom right */
+
+.quote {
+    
+    
+}
+
+.action {
+    display: flex;
+   justify-content: space-between;
+    font-size: 1.5em;
+    background-color: #3882F6;
+    color: white;
+    padding: 48px 86px;
+    margin: 96px 168px;
+    border-radius: 8px;
+    /* make Button clickable */
+}
+
+
+.time {
+    display: block;
+    font-style: sans-serif;
+}
+
+.button2 {
+    border: 2px solid white;
+    background-color: #3882F6;
+    color: white;
+    padding: 16px 48px ;
+    font-size: 16px;
+    border-radius: 8px;
+    margin: 12px;
+
+ 
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    color: white;
+    padding: 32px;
+}
+
+/* to do: adjust website container in header
+        add four blue circled boxes in main 
+        adjust quote to top left and Thor to bottom right
+        try different padding */ 
