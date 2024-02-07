@@ -5,7 +5,7 @@
 
 header {
     background-color: #1f2937;
-    padding: 16px 100px 48px;
+    padding: 16px 100px 64px;
     color: #e5e7eb;
 
 }
@@ -14,11 +14,14 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-top: auto;
+    
+}
+
+nav {
     font-size: 24px;
     font-weight: bold;
     color: #f9faf8;
-    margin-top: auto;
-    
 }
 
 ul {
@@ -35,7 +38,6 @@ ul {
     color: #f9faf8;
 }
 
-nav
 
 a {
     text-decoration: none;
@@ -47,20 +49,25 @@ a {
 .header.container {
     display: flex;
     flex-direction: row;
+}
+
+.header.container {
     padding: 32px;
     margin-bottom: 48px;
     margin-top: 48px;
 }
 
+
 .awesome {
     display: flex;
-    margin: auto;
+    margin: 48px;
     justify-content: center;
 }
 
 .more {
     display: block;
-    width: 300px;
+    padding: 24px;
+    width: 400px;
     margin: 32px;
 
 }
@@ -74,15 +81,22 @@ a {
     font-family: Arial, Helvetica, sans-serif
 }
 
+.subtext {
+    margin-top: 8px;
+    font-size: 20px;
+}
+
 .button1 {
     background-color: #3882F6;
     border: 3px;
-    
     padding: 8px 32px;
     margin-top: 12px;
     color: white;
     border-radius: 8px;
 }
+
+/* buttons are not clickable
+    add function to link up */
 
 .placeholder {
     display: flex;
@@ -94,20 +108,27 @@ a {
   border: 1px;
   width: 400px;
   height: 150px;
+}
 
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: medium;
+.placeholder {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
 }
 
 .information {
-    text-align: center;
-    font-weight: 600;
+    font-weight: 700;
     font-family: Arial, Helvetica, sans-serif;
     color:#1F2937;
-    font-size: x-large;
-    margin-top: 56px;
+    font-size: 2.25em;
+    margin-top: 48px;
+    margin-bottom: 48px;
 }
 
+.information {
+    margin-top: 48px;
+    margin-bottom: 48px;
+    text-align: center;
+}
 
 .main {
     display: flex;
@@ -116,45 +137,90 @@ a {
     padding: 0;
 }
 
+.body {
+    margin-bottom: 1vh;
+}
+
 .boxes {
     display: flex;
-    border: #3882F6;
-    border: 3px;
+    justify-content: center;
+    gap: 48px;
+    flex: wrap;
+    margin: 0px 32px;
+    margin-bottom: 64px;
+}
+
+.box-item {
+    display: flex;
+    flex-direction: column;
+    flex: wrap;
+    width: fit-content;
 }
 
 .box {
     display: flex;
-    border: #3882F6;
-    border: 3px;
+    width:160px;
+    height:160px;
+    background-color: white;
+    border: 4px solid #3882F6;
+    border-radius: 16px;
+    margin-bottom: 16px;
+    
+    
+   
+}
+
+.box-item > p {
+    font-size: 1.15em;
+    color: grey;
+    width: 150px;
+    text-align: center;
+}
+
+.thor-all {
+    display: flex;
+    flex-direction: column;
+    
+    background-color: #e5e7eb;
+    height: 30vh;
+    padding: 110px 350px;
+    margin-top: 10vh;
+   
 }
 
 .thor {
-    display: flex;
-    justify-content: space-between;
-    background-color: #e5e7eb;
+    font-style: italic;
     font-size: 36px;
-    font-family: italic;
     color: #1F2937;
-    padding: 3em;
+    font-weight: 100;
 }
 
-/* adjust text top left and quote bottom right */
+/* adjust text top left and quote bottom right
+    style and boxes match requirements */
 
 .quote {
-    
-    
+    align-self: flex-end;
+}
+
+.quote {
+    font-style: none;
+    font-weight: bold;
+    font-size: 24px;
 }
 
 .action {
     display: flex;
-   justify-content: space-between;
-    font-size: 1.5em;
-    background-color: #3882F6;
-    color: white;
+    justify-content: space-between;
     padding: 48px 86px;
     margin: 96px 168px;
     border-radius: 8px;
     /* make Button clickable */
+}
+
+.action {
+    font-size: 1.5em;
+    background-color: #3882F6;
+    color: white;
 }
 
 
@@ -184,7 +250,7 @@ a {
     padding: 32px;
 }
 
-/* to do: adjust website container in header
-        add four blue circled boxes in main 
-        adjust quote to top left and Thor to bottom right
-        try different padding */ 
+/* to do: adjust website container in header/ complete
+        separate style and arrangement/ complete
+        add four blue circled boxes in main/ complete 
+        adjust quote to top left and Thor to bottom right/ complete */ 
