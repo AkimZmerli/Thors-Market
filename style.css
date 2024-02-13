@@ -72,7 +72,7 @@ a {
 
 }
 /* adjust website item center
-    add gap */
+    add gap/ complete */
 
 .website {
     font-size: 48px;
@@ -93,10 +93,16 @@ a {
     margin-top: 12px;
     color: white;
     border-radius: 8px;
+    cursor: pointer;
+}
+
+.button1:hover {
+    background-color: #cfd2d6;
 }
 
 /* buttons are not clickable
-    add function to link up */
+    add function to link up
+    /complete */
 
 .placeholder {
     display: flex;
@@ -196,7 +202,7 @@ a {
 }
 
 /* adjust text top left and quote bottom right
-    style and boxes match requirements */
+    style and boxes match requirements/ complete */
 
 .quote {
     align-self: flex-end;
@@ -214,7 +220,7 @@ a {
     padding: 48px 86px;
     margin: 96px 168px;
     border-radius: 8px;
-    /* make Button clickable */
+    /* make Button clickable/ complete */
 }
 
 .action {
@@ -237,9 +243,13 @@ a {
     font-size: 16px;
     border-radius: 8px;
     margin: 12px;
-
- 
+    cursor: pointer;
 }
+
+.button2:hover {
+    background-color: #cfd2d6;
+}
+
 
 .footer {
     display: flex;
